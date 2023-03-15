@@ -11,9 +11,9 @@ const firebaseConfig = {
   projectId: "financial-news-blog-project",
   storageBucket: "financial-news-blog-project.appspot.com",
   messagingSenderId: "158243635687",
-  appId: "1:158243635687:web:97edfaa36e0c655525fd42"
+  appId: "1:158243635687:web:97edfaa36e0c655525fd42",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app); 
+export const db = getFirestore(app);
